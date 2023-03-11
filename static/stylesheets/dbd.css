@@ -42,11 +42,13 @@ p {
     font-weight: 100;
     font-size: 3.5vw;
     font-family: Nosifer, fantasy;
-    text-shadow: black 2px 5px;
+    box-shadow: #0a0404;
+    text-shadow: white .1vw .1vw;
    color: rgb(204, 199, 199);
    height: 100px;
    padding-top: 5%;
    transition: font-size: 1s, color 3s; 
+   
    
 }
 #title:hover {
@@ -118,10 +120,6 @@ button:hover {
   margin-top: -15%;
   margin-bottom: -10%;
   height: 50vw;
-  /* position: absolute;
-  top: 10%;
-  left: -1%;
-  height: 170px; */
 
 }
 
